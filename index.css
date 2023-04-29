@@ -1,0 +1,256 @@
+body {
+  background-color:rgb(88, 59, 59);
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 140px;
+  display: flex;
+  margin-left: 24px;
+  margin-top: 5px; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  font-size: 17px
+}
+
+.image-container {
+  width: fit-content;
+}
+
+.kostyl {
+  display: flex;
+  width: 140px;
+  margin-right: 24px; 
+}
+
+h1 {
+  margin-top: 40%;
+  font-size: 2.28vw;
+}
+
+.text {
+  margin-top: 2%;
+  width: 33%;
+  font-size: 0.92vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white !important
+}
+
+.picture {
+  background-image:
+  linear-gradient(rgba(41, 20, 20, 0.4), rgba(41, 20, 20, 0.4)),
+    url('assets/Dining-Area-15-1400x934.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.contacts {
+  display: flex;
+  width: 500px;
+  justify-self: center;
+  flex-flow: column wrap;
+  color: white;
+}
+
+.item {
+  margin-top: 4%;
+  color: white;
+}
+
+.table {
+  height: 25%;
+  font-size: 0.9vw;
+}
+
+.nav-link {
+  color: rgb(238, 215, 215);
+  font-size: 0.96vw;
+}
+
+.info-wrapper {
+  background-color: rgb(88, 59, 59);
+  margin-top: 21%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.hrefs {
+  color: white;
+}
+
+.four-items {
+  display: flex;
+  justify-content: center;
+}
+
+.one-item {
+  width: 250px;
+  height: 250px;
+}
+
+.item-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  font-size: 1.82vw;
+}
+
+.gallery {
+  margin-top: 4%;
+}
+
+.text-center {
+  margin-top: 30%;
+  font-size: 1.9vw;
+}
+
+.info-broni {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.chek-in-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+  border-color: rgb(192, 192, 202);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+  outline: 0 none;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  line-height: 2.5vh;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+  padding: 0 15%;
+  font-size: 0.81vw;
+}
+
+.footer-item {
+  margin: 10px 15px;
+  width: 17vw; 
+}
+
+.footer-icons {
+
+
+
+}
+
+.fa {
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 2px 5px ;
+}
+
+.fa-vk {
+  background-color: white;
+  color: black;
+}
+
+.fa-instagram {
+  background-color: white;
+  color: black;
+}
+
+.fa-telegram {
+  background-color: white;
+  color: black;
+}
+
+.vrr {
+  border-left: 1px solid white;
+  height: 100px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.data-select {
+  height: 3.3vh !important;
+}
+
+.broni-text {
+  font-size: 1.5vh !important;
+}
+
+.input-width {
+  width: 12.2vw !important; 
+}
+
+.input-width2 {
+  width: 25.6vw !important;
+}
+
+.big-img {
+  width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.small-img {
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}

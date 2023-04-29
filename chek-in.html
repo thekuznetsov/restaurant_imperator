@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="/index.css" rel="stylesheet">
+  <title>Бронирование</title>
+</head>
+
+<body style="background-color: rgba(54, 35, 35, 0.664); color: white;">
+  <div>
+    <div class="header">
+      <div class="image-container">
+        <img class="logo" src="assets/imperator-logo-grey-transparent-big.png">
+      </div>
+      <div class="kostyl"></div>
+    </div>
+  </div>
+  <!--Flex-flow: column-->
+  <div class="chek-in-form" style="margin-top: 10%">
+    <h2>Бронирование</h2>
+    <form class="row g-3 info-broni input-width2">
+      <div class="col-md-6 input-width">
+        <label for="inputEmail4" class="form-label broni-text">Дата брони</label>
+        <select class="form-select form-select-sm data-select broni-text" aria-label=".form-select-sm example">
+          <option selected>Понедельник, 13 марта</option>
+          <option value="1">Вторник, 14 марта</option>
+          <option value="2">Среда, 15 марта</option>
+          <option value="3">Четверг, 16 марта</option>
+        </select>
+      </div>
+      <div class="col-md-6 input-width">
+        <label for="inputPassword4" class="form-label broni-text">Кол-во человек</label>
+        <input type="password" class="form-control data-select" id="inputPassword4">
+      </div>
+      <div class="col-12 button-broni input-width2">
+        <label for="inputAddress" class="form-label broni-text">Выбор времени</label>
+        <select class="form-select form-select-sm data-select broni-text" aria-label=".form-select-sm example">
+          <option selected>13:30</option>
+          <option value="1">15:45</option>
+          <option value="2">17:20</option>
+          <option value="3">19:00</option>
+        </select>
+      </div>
+      <div class="col-12 input-width2">
+        <label for="inputAddress2" class="form-label broni-text">Пожелание</label>
+        <input type="text" class="form-control data-select broni-text" id="inputAddress2" placeholder="Больше стульев, детские кресла">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label broni-text" for="gridCheck">
+            Согласие
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button style="background-color: rgb(27, 27, 27); border: none" type="submit" class="btn btn-primary broni-text">Продолжить</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
