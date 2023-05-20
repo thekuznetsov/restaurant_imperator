@@ -215,7 +215,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 }
 
 .container {
-  width: 980px;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -233,6 +233,12 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 .input-width2 {
   width: 25.6vw !important;
+}
+
+.festival {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .big-img {
@@ -253,4 +259,18 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 
 .no-margin {
   margin: 0 !important;
+}
+
+.name-festifval {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+.picture-block {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 0px;
 }
